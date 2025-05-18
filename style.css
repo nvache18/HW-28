@@ -28,7 +28,7 @@ h2 {
 .progressbar {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  margin:  0;
 }
 
 .step {
@@ -84,4 +84,28 @@ button {
 
 button:hover {
   background-color: #a6336e;
+}
+.space{
+  height: 2px;
+  width:50px;
+  background-color: black;
+  margin-top: 70px;
+  display: flex;
+}
+.d1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+#Gender{
+  padding: 10px;
+  border-radius: 5px;
+  border: gray 1px solid;
+}
+#i1{
+  color: white;
+  display: none;
 }
